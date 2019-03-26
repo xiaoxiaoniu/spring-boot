@@ -18,4 +18,8 @@ public class FirstController {
   public String method1() {
     return "hi man!";
   }
+  @RequestMapping("/method2")
+  public String method2(){
+    return "test dev is ok!";
+  }
 }
